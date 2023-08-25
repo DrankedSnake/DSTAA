@@ -1,0 +1,14 @@
+@startuml
+object Sam
+object Amanda
+object James
+object Marta
+object John
+object Alex
+Sam -right-> Amanda
+Amanda -right-> James
+James -right-> Marta
+Marta -right-> John
+John -right-> Alex
+
+@enduml
